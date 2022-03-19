@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.82.1" /><link rel="alternate" type="application/rss&#43;xml" href="https://python-for-newbie.kejyun.com/leetcode/question/index.xml">
-<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<meta name="generator" content="Hugo 0.82.1" /><META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -18,17 +17,22 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>問題 | Python 菜雞修煉場</title><meta property="og:title" content="問題" />
-<meta property="og:description" content="Python Leetcode 問題" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://python-for-newbie.kejyun.com/leetcode/question/" /><meta property="og:image" content="https://python-for-newbie.kejyun.com/images/featured-background.jpeg"/>
+<title>交換變數 | Python 菜雞修煉場</title><meta property="og:title" content="交換變數" />
+<meta property="og:description" content="Python 基礎: 交換變數" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://python-for-newbie.kejyun.com/basic/data-type/exchange-variable/" /><meta property="og:image" content="https://python-for-newbie.kejyun.com/images/featured-background.jpeg"/><meta property="article:section" content="basic" />
+<meta property="article:published_time" content="2021-07-05T08:50:29&#43;08:00" />
+<meta property="article:modified_time" content="2021-07-05T08:50:29&#43;08:00" />
 
-<meta itemprop="name" content="問題">
-<meta itemprop="description" content="Python Leetcode 問題"><meta name="twitter:card" content="summary_large_image"/>
+<meta itemprop="name" content="交換變數">
+<meta itemprop="description" content="Python 基礎: 交換變數"><meta itemprop="datePublished" content="2021-07-05T08:50:29&#43;08:00" />
+<meta itemprop="dateModified" content="2021-07-05T08:50:29&#43;08:00" />
+<meta itemprop="wordCount" content="79"><meta itemprop="image" content="https://python-for-newbie.kejyun.com/images/featured-background.jpeg"/>
+<meta itemprop="keywords" content="Python,教學文件,新手教學,基礎,dict 字典變數,key-value 變數," /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://python-for-newbie.kejyun.com/images/featured-background.jpeg"/>
 
-<meta name="twitter:title" content="問題"/>
-<meta name="twitter:description" content="Python Leetcode 問題"/>
+<meta name="twitter:title" content="交換變數"/>
+<meta name="twitter:description" content="Python 基礎: 交換變數"/>
 
 
 <script type="application/javascript">
@@ -68,12 +72,15 @@ if (!doNotTrack) {
 
 
 
+  
+    
+
 <script type="application/ld+json">
 {
     "@context":"http://schema.org",
     "@type":"Article",
-    "headline":"問題",
-    "url":"https:\/\/python-for-newbie.kejyun.com\/leetcode\/question\/",
+    "headline":"交換變數",
+    "url":"https:\/\/python-for-newbie.kejyun.com\/basic\/data-type\/exchange-variable\/",
     "keywords":[
     
         
@@ -87,10 +94,13 @@ if (!doNotTrack) {
           "新手教學"
         
           , 
-          "Leetcode"
+          "基礎"
         
           , 
-          "問題"
+          "dict 字典變數"
+        
+          , 
+          "key-value 變數"
         
     
     ],
@@ -115,19 +125,22 @@ if (!doNotTrack) {
             "height":"60"
         }
     },
-    "dateCreated":"2021-07-04T08:50:29\u002b08:00",
-    "datePublished":"2021-07-04T08:50:29\u002b08:00",
+    "dateCreated":"2021-07-05T08:50:29\u002b08:00",
+    "datePublished":"2021-07-05T08:50:29\u002b08:00",
     
     
     "author":"KeJyun",
     "creator":"KeJyun",
     
-    "dateModified":"2021-07-04T08:50:29\u002b08:00",
+    "dateModified":"2021-07-05T08:50:29\u002b08:00",
     "articleSection":"TechArticle"
 }
 </script>
 
   
+
+  
+    
 <script type="application/ld+json">
 	{
 		"@context":"http://schema.org",
@@ -136,12 +149,12 @@ if (!doNotTrack) {
 		
 			"https:\/\/python-for-newbie.kejyun.com\/images\/featured-background.png",
 		
-		"url": "https:\/\/python-for-newbie.kejyun.com\/leetcode\/question\/",
-		"headline": "問題",
-		"alternativeHeadline": "問題",
-		"dateCreated": "2021-07-04T08:50:29\u002b08:00",
-		"datePublished": "2021-07-04T08:50:29\u002b08:00",
-		"dateModified": "2021-07-04T08:50:29\u002b08:00",
+		"url": "https:\/\/python-for-newbie.kejyun.com\/basic\/data-type\/exchange-variable\/",
+		"headline": "交換變數",
+		"alternativeHeadline": "交換變數",
+		"dateCreated": "2021-07-05T08:50:29\u002b08:00",
+		"datePublished": "2021-07-05T08:50:29\u002b08:00",
+		"dateModified": "2021-07-05T08:50:29\u002b08:00",
 		"inLanguage": "zh",
 		"isFamilyFriendly": "true",
 		"copyrightYear": "2021",
@@ -180,17 +193,19 @@ if (!doNotTrack) {
 		},
 		"mainEntityOfPage": "True",
 		"keywords": [ 
-			"Python", "教學文件", "新手教學", "Leetcode", "問題"
+			"Python", "教學文件", "新手教學", "基礎", "dict 字典變數", "key-value 變數"
 		
 		],
 		"genre":["KJ"],
 		"articleSection": "KJ",
-		"articleBody": ""
+		"articleBody": "一般交換變數 使用 temp 變數儲存暫存變數\n# Python program to swap two variables x = 5 y = 10 # create a temporary variable and swap the values temp = x x = y y = temp print(\u0026#39;The value of x after swapping: {}\u0026#39;.format(x)) print(\u0026#39;The value of y after swapping: {}\u0026#39;.format(y)) 條件式交換變數 使用 變數X,變數Y = 變數Y,變數X 就可以直接交換變數了\nx = 5 y = 10 x, y = y, x print(\u0026#34;x =\u0026#34;, x) print(\u0026#34;y =\u0026#34;, y) 參考資料  Python Program to Swap Two Variables  "
 	}
 </script>
 
   
 
+  
+    
 
 
 
@@ -208,6 +223,18 @@ if (!doNotTrack) {
 
 
 
+
+
+	
+	
+	
+	  
+		
+		
+		
+		
+		
+	
 
 	
 	
@@ -258,8 +285,8 @@ if (!doNotTrack) {
 					"@type": "ListItem",
 					"position":  2 ,
 					"item": {
-						"@id": "https:\/\/python-for-newbie.kejyun.com\/leetcode",
-						"name": "Leetcode"
+						"@id": "https:\/\/python-for-newbie.kejyun.com\/basic",
+						"name": "Basic"
 					}
 				}
 				, 
@@ -270,8 +297,20 @@ if (!doNotTrack) {
 					"@type": "ListItem",
 					"position":  3 ,
 					"item": {
-						"@id": "https:\/\/python-for-newbie.kejyun.com\/leetcode\/question",
-						"name": "Question"
+						"@id": "https:\/\/python-for-newbie.kejyun.com\/basic\/data-type",
+						"name": "Data type"
+					}
+				}
+				, 
+			
+		
+			
+				{
+					"@type": "ListItem",
+					"position":  4 ,
+					"item": {
+						"@id": "https:\/\/python-for-newbie.kejyun.com\/basic\/data-type\/exchange-variable",
+						"name": "Exchange variable"
 					}
 				}
 				
@@ -281,8 +320,205 @@ if (!doNotTrack) {
 }
 </script>
 
+  
 
-<link rel="canonical" href="https://python-for-newbie.kejyun.com/leetcode/question/" />
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+
+<script type="application/ld+json">
+{
+"@context": "http://www.schema.org",
+"@type": "Person",
+"@id": "https:\/\/python-for-newbie.kejyun.com\/basic\/data-type\/exchange-variable\/",
+"name": "KeJyun",
+"alternateName": "KeJyun",
+"nationality": "Taiwan",
+
+"affiliation": [
+	{
+		"@type": "Organization",
+		"name": "KJ",
+		"sameAs": [ "\n\n\n\n\n\"https://www.facebook.com/kejyunTaiwan\",\n\n\n\n\"https://github.com/kejyun\",\n\n\n\n\n\n\n\n\n\n\n\n\"https://kejyun.com/\"\n"
+		]
+  	}
+],
+
+"gender": "male",
+"Description": "IT Manager",
+"disambiguatingDescription": "Hi I\u0027m Web Developer in Taiwan",
+
+"worksFor": [
+	{
+		"@type": "Organization",
+		"name": "KJ",
+		"sameAs": [ "\n\n\n\n\n\"https://www.facebook.com/kejyunTaiwan\",\n\n\n\n\"https://github.com/kejyun\",\n\n\n\n\n\n\n\n\n\n\n\n\"https://kejyun.com/\"\n"
+		]
+	}
+],
+"url": "https:\/\/python-for-newbie.kejyun.com\/",
+"image": "https:\/\/python-for-newbie.kejyun.com\/company\/team\/KeJyun.png",
+
+"sameAs": [ "\n\n\n\n\n\n\"https://ca.linkedin.com/in/kejyun/en\",\n\n\n\"https://github.com/kejyun\",\n\n\n\n\n\n\n\n\n\n\n\n\"\"\n"
+	]
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+<script type="application/ld+json">
+[
+	{
+		"@context": "http://schema.org",
+		"@type": "Webpage",
+		"specialty": "Python 菜雞修煉場",
+		"mainContentOfPage": {
+			"@context": "http://schema.org/",
+			"@type": "WebPageElement",
+			"cssSelector": ".body-content"
+		},
+		"primaryImageOfPage": "https:\/\/python-for-newbie.kejyun.com\/images\/featured-background.jpeg"
+	},
+	{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"@id": "https:\/\/python-for-newbie.kejyun.com\/",
+		"additionalType": ["CreativeWork", "Person"],
+		"url": "https:\/\/python-for-newbie.kejyun.com\/",
+		"name": "Python 菜雞修煉場",
+		"alternateName": "Python 菜雞修煉場",
+		"headline": "Python 菜雞修煉場",
+		"image": "https:\/\/python-for-newbie.kejyun.com\/images\/featured-background.jpeg",
+		"inLanguage": "zh",
+		"author": "",
+		"description": "Python 菜雞修煉場",
+		"disambiguatingDescription": "Python 菜雞修煉場",
+		"isFamilyFriendly": "http://schema.org/True",
+		"contentRating": "NR",
+		"sourceOrganization": "Python 菜雞修煉場",
+		"publisher": {
+		  "@type": "Organization",
+		  "name": "Python 菜雞修煉場",
+		  "logo": {
+		    "@type": "ImageObject",
+		    "url": "https:\/\/python-for-newbie.kejyun.com\/images\/featured-background.png",
+		    "height": 60,
+		    "width": 107
+		  }
+		},
+		"mainEntity": {
+			"@context": "http://schema.org",
+			"@type": "localBusiness",
+			"name": "Python 菜雞修煉場",
+			"image":"https:\/\/python-for-newbie.kejyun.com\/images\/featured-background.png",
+			
+			"priceRange":"$$",
+			
+
+			
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "Taipei street",
+				"addressLocality": "Taipei City",
+				"addressRegion": "Taipei",
+				"addressCountry": "Taiwan",
+				"postalCode": "100"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.5",
+				"reviewCount": "50"
+			}
+		},
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https:\/\/python-for-newbie.kejyun.com\/?search={search_term}",
+			"query-input": "required name=search_term"
+		},
+		"keywords":[
+			"Python 菜雞修煉場", "Python for Newbie", "KJ", "kejyun"
+		],
+		"hasPart": [
+			{
+				"@context": "http://schema.org/",
+				"@type": "WPHeader",
+				"@id": "#header",
+				"headline": "Python 菜雞修煉場",
+				"cssSelector": "#header",
+				"potentialAction": [],
+				"@graph":
+				[
+					{
+						"@context": "https://schema.org",
+						"@type":"SiteNavigationElement",
+						"@id":"#header",
+						"name": "基礎",
+						"url": "https:\/\/python-for-newbie.kejyun.com\/basic\/"
+					}, 
+					{
+						"@context": "https://schema.org",
+						"@type":"SiteNavigationElement",
+						"@id":"#header",
+						"name": "Leetcode",
+						"url": "https:\/\/python-for-newbie.kejyun.com\/leetcode\/"
+					}]
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "WPSidebar",
+				"cssSelector": "#sidebar",
+				"citation": [
+				"https:\/\/python-for-newbie.kejyun.com\/basic\/", "https:\/\/python-for-newbie.kejyun.com\/leetcode\/"
+				]
+			},
+			{
+				"@context": "http://schema.org/",
+				"@type": "WPFooter",
+				"cssSelector": ".footer",
+				"@id": "#footer",
+				"copyrightHolder":"Python 菜雞修煉場",
+				"publisher": "Python 菜雞修煉場",
+				"copyrightYear":"2022"
+			}
+		]
+	}
+]
+</script>
+
+  
+
+  
+
+<link rel="canonical" href="https://python-for-newbie.kejyun.com/basic/data-type/exchange-variable/" />
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -301,7 +537,7 @@ if (!doNotTrack) {
 
 
   </head>
-  <body class="td-section">
+  <body class="td-page">
     <header>
       
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
@@ -321,7 +557,7 @@ if (!doNotTrack) {
 				
 				
 				
-				<a class="nav-link" href="/basic/" ><i class='fas fa-book'></i><span>基礎</span></a>
+				<a class="nav-link active" href="/basic/" ><i class='fas fa-book'></i><span class="active">基礎</span></a>
 			</li>
 			
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
@@ -333,7 +569,7 @@ if (!doNotTrack) {
 				
 				
 				
-				<a class="nav-link active" href="/leetcode/" ><i class='fas fa-book'></i><span class="active">Leetcode</span></a>
+				<a class="nav-link" href="/leetcode/" ><i class='fas fa-book'></i><span>Leetcode</span></a>
 			</li>
 			
 			
@@ -421,8 +657,8 @@ if (!doNotTrack) {
   
   
   
-  <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-leetcode-li">
-    <a href="/leetcode/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section tree-root" id="m-leetcode"><span class="">Leetcode</span></a>
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-basic-li">
+    <a href="/basic/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section tree-root" id="m-basic"><span class="">基礎</span></a>
     
       
       <ul class="pr-md-3 ul-1">
@@ -443,8 +679,8 @@ if (!doNotTrack) {
   
   
   
-  <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-leetcodequestion-li">
-    <a href="/leetcode/question/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section" id="m-leetcodequestion"><span class="td-sidebar-nav-active-item">問題</span></a>
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-basicdata-type-li">
+    <a href="/basic/data-type/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basicdata-type"><span class="">變數類型</span></a>
     
       
       <ul class="pr-md-3 ul-2">
@@ -465,11 +701,132 @@ if (!doNotTrack) {
   
   
   
-  <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-leetcodequestion0001-0100-li">
-    <a href="/leetcode/question/0001-0100/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-leetcodequestion0001-0100"><span class="">0001~0100</span></a>
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicdata-typedict-li">
+    <a href="/basic/data-type/dict/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-basicdata-typedict"><span class="">dict 字典變數</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicdata-typelist-li">
+    <a href="/basic/data-type/list/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-basicdata-typelist"><span class="">list 串列變數</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicdata-typetuple-li">
+    <a href="/basic/data-type/tuple/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-basicdata-typetuple"><span class="">tuple 元組變數</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicdata-typesystem-li">
+    <a href="/basic/data-type/system/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-basicdata-typesystem"><span class="">系統變數</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-basicdata-typeexchange-variable-li">
+    <a href="/basic/data-type/exchange-variable/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__page" id="m-basicdata-typeexchange-variable"><span class="td-sidebar-nav-active-item">交換變數</span></a>
+    
+  </li>
+
+          
+        
+      </ul>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-basiccondition-li">
+    <a href="/basic/condition/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basiccondition"><span class="">條件</span></a>
     
       
-      <ul class="pr-md-3 ul-3">
+      <ul class="pr-md-3 ul-2">
         
           
             
@@ -487,100 +844,8 @@ if (!doNotTrack) {
   
   
   
-  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-leetcodequestion0001-01000001-two-sum-li">
-    <a href="/leetcode/question/0001-0100/0001-two-sum/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-leetcodequestion0001-01000001-two-sum"><span class="">0001 - Two Sum</span></a>
-    
-  </li>
-
-          
-        
-          
-            
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-leetcodequestion0001-01000002-add-two-number-li">
-    <a href="/leetcode/question/0001-0100/0002-add-two-number/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-leetcodequestion0001-01000002-add-two-number"><span class="">0002 - Add Two Number</span></a>
-    
-  </li>
-
-          
-        
-          
-            
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-leetcodequestion0001-01000003-longest-substring-without-repeating-characters-li">
-    <a href="/leetcode/question/0001-0100/0003-longest-substring-without-repeating-characters/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-leetcodequestion0001-01000003-longest-substring-without-repeating-characters"><span class="">0003 - Longest Substring Without Repeating Characters</span></a>
-    
-  </li>
-
-          
-        
-          
-            
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-leetcodequestion0001-01000004-median-of-two-sorted-arrays-li">
-    <a href="/leetcode/question/0001-0100/0004-median-of-two-sorted-arrays/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-leetcodequestion0001-01000004-median-of-two-sorted-arrays"><span class="">0004 - Median of Two Sorted Arrays</span></a>
-    
-  </li>
-
-          
-        
-          
-            
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-leetcodequestion0001-01000005-longest-palindromic-substring-li">
-    <a href="/leetcode/question/0001-0100/0005-longest-palindromic-substring/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-leetcodequestion0001-01000005-longest-palindromic-substring"><span class="">0005 - Longest Palindromic Substring</span></a>
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicconditionif-li">
+    <a href="/basic/condition/if/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-basicconditionif"><span class="">if</span></a>
     
   </li>
 
@@ -592,7 +857,264 @@ if (!doNotTrack) {
 
           
         
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-basicloop-li">
+    <a href="/basic/loop/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basicloop"><span class="">迴圈</span></a>
+    
+      
+      <ul class="pr-md-3 ul-2">
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicloopfor-li">
+    <a href="/basic/loop/for/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-basicloopfor"><span class="">for</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicloopwhile-li">
+    <a href="/basic/loop/while/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-basicloopwhile"><span class="">while</span></a>
+    
+  </li>
+
+          
+        
       </ul>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicclass-li">
+    <a href="/basic/class/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basicclass"><span class="">類別 Class</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicprint-li">
+    <a href="/basic/print/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basicprint"><span class="">列印</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicstring-li">
+    <a href="/basic/string/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basicstring"><span class="">字串 string</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-basicfunction-li">
+    <a href="/basic/function/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basicfunction"><span class="">函數</span></a>
+    
+      
+      <ul class="pr-md-3 ul-2">
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicfunctionset-li">
+    <a href="/basic/function/set/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__page" id="m-basicfunctionset"><span class="">set</span></a>
+    
+  </li>
+
+          
+        
+      </ul>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicexception-li">
+    <a href="/basic/exception/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basicexception"><span class="">Exception 例外處理</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicsystem-li">
+    <a href="/basic/system/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basicsystem"><span class="">系統</span></a>
+    
+  </li>
+
+          
+        
+          
+            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-basicother-li">
+    <a href="/basic/other/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section" id="m-basicother"><span class="">其他</span></a>
     
   </li>
 
@@ -643,15 +1165,25 @@ if (!doNotTrack) {
 
 
 
+
+
+
 <li class="breadcrumb-item" >
-	<a href="https://python-for-newbie.kejyun.com/leetcode/">Leetcode</a>
+	<a href="https://python-for-newbie.kejyun.com/basic/">基礎</a>
+</li>
+
+
+
+
+<li class="breadcrumb-item" >
+	<a href="https://python-for-newbie.kejyun.com/basic/data-type/">變數類型</a>
 </li>
 
 
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://python-for-newbie.kejyun.com/leetcode/question/">問題</a>
+	<a href="https://python-for-newbie.kejyun.com/basic/data-type/exchange-variable/">交換變數</a>
 </li>
 
 	</ol>
@@ -659,13 +1191,13 @@ if (!doNotTrack) {
 
             
 <div class="td-content">
-	<h1>問題</h1>
+	<h1>交換變數</h1>
 		
-    <div class="lead">Python Leetcode 問題</div>
+		<div class="lead">Python 基礎: 交換變數</div>
+
 		
 		
-		
-		
+
 		
 		
 
@@ -681,48 +1213,38 @@ if (!doNotTrack) {
 </script>
 
 
- 
-	
-		
-		
-		
-    
-		
-		<div class="section-index">
-    
-    
-    
-    
-    
-    <hr class="panel-line">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-                <div class="entry">
-                    <h5>
-                        <a href="/leetcode/question/0001-0100/">0001~0100</a>
-                    </h5>
-                    <p>Python Leetcode 問題: 0001~0100</p>
-                </div>
-            
-        
-            
-        
-            
-        
-    
-</div>
 
-	
+
+		
+		
+		<h2 id="一般交換變數">一般交換變數</h2>
+<p>使用 temp 變數儲存暫存變數</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#8f5902;font-style:italic"># Python program to swap two variables</span>
+
+<span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">5</span>
+<span style="color:#000">y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">10</span>
+
+<span style="color:#8f5902;font-style:italic"># create a temporary variable and swap the values</span>
+<span style="color:#000">temp</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">x</span>
+<span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">y</span>
+<span style="color:#000">y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">temp</span>
+
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;The value of x after swapping: {}&#39;</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">format</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span><span style="color:#000;font-weight:bold">))</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#39;The value of y after swapping: {}&#39;</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">format</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">y</span><span style="color:#000;font-weight:bold">))</span>
+</code></pre></div><h2 id="條件式交換變數">條件式交換變數</h2>
+<p>使用 <code>變數X,變數Y = 變數Y,變數X</code> 就可以直接交換變數了</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">5</span>
+<span style="color:#000">y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">10</span>
+
+<span style="color:#000">x</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">y</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">x</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;x =&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">x</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#204a87;font-weight:bold">print</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;y =&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">y</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><h1 id="參考資料">參考資料</h1>
+<ul>
+<li><a href="https://www.programiz.com/python-programming/examples/swap-variables">Python Program to Swap Two Variables</a></li>
+</ul>
+
+
 		
 		
 
@@ -748,16 +1270,19 @@ if (!doNotTrack) {
        data-ad-slot="3237080773"></ins>
 
 
- 
+
+
 		
 		
+
 		
 		
+
 		
-		
-	<div class="text-muted mt-5 pt-3 border-top">最後修改 July 4, 2021
+		<div class="text-muted mt-5 pt-3 border-top">最後修改 July 5, 2021
 </div>
 </div>
+
 
           </main>
         </div>
